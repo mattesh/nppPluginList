@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"arch": "64",
 	"npp-plugins": [
 		{
@@ -14,12 +14,22 @@
 			"homepage": "https://jcaillon.github.io/3P/"
 		},
 		{
+			"folder-name": "ActiveX",
+			"display-name": "ActiveX Plugin",
+			"version": "1.1.8.5",
+			"id": "a025f62be868bcf6519f14f76b707890bb533538e953f86a4e4846c328a49045",
+			"repository": "https://sourceforge.net/projects/nppactivexplugin/files/bin/ActiveX_x64_1_1_8_5.zip",
+			"description": "Allows you to control Notepad++ via ActiveX.\r\nYou can use ActiveX with many scripting languages (VBScript, JScript, PHP, ...) and other languages (C++, C+, VB.NET, Delphi, ...).\r\nSo you are not bound to a single language.",
+			"author": "Bananen-Joe",
+			"homepage": "https://sourceforge.net/projects/nppactivexplugin/"
+		},
+		{
 			"folder-name": "AnalysePlugin",
 			"display-name": "AnalysePlugin",
-			"version": "1.12.43.0",
-			"id": "c76336becb7deea393d2bb073383c058dca68453014058552624184e40dda781",
-			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R43/AnalysePlugin-v1.12-R43-x64.zip",
-			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing log files..\r\nLast changes and How to use you will find in Help... in Plugins Menu.",
+			"version": "1.12.47.0",
+			"id": "1d76016fef0a13b119b21a1f1ad3c35d0fce8ddcf8e41dcf82c679aa691900a1",
+			"repository": "https://sourceforge.net/projects/analyseplugin/files/binaries/v01.12-R47/AnalysePlugin-v1.12-R47-x64.zip",
+			"description": "AnalysePlugin will help you to search for more than one search pattern at a time. Great for analysing big log files...\r\nLast changes and how to use you will find in Help... in Plugins Menu.",
 			"author": "Mattes H.",
 			"homepage": "https://sourceforge.net/projects/analyseplugin"
 		},
@@ -96,12 +106,22 @@
 		{
 			"folder-name": "BookmarksDook",
 			"display-name": "Bookmarks@Dook",
-			"version": "1.6.0.0",
-			"id": "7cab896d49fffe45082b465fc6d2b2b1f0238b65630da6f851106401023971c1",
-			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/1.6/BookmarksDook.64.1.6.zip",
+			"version": "1.6.1.0",
+			"id": "e202f943af0d581ee41bbe80a36c88b578669dcdaf17c471be4d019391266310",
+			"repository": "https://github.com/Dook1/Bookmarks-Dook/releases/download/1.6.1-64b/BookmarksDook.64.1.6.1.zip",
 			"description": "Bookmarks list",
 			"author": "Dook",
 			"homepage": "https://github.com/Dook1/Bookmarks-Dook/issues"
+		},
+		{
+			"folder-name": "CADdyTools",
+			"display-name": "CADdyTools",
+			"version": "1.0.1.5",
+			"id": "b821212f74cc51d8fef471a7645ea3f63fb20b21a36a85af1f7d240542e742cd",
+			"repository": "https://github.com/MarioRosi/CADdyTools/releases/download/1.0.1.5/CADdyTools_v1015_x64.zip",
+			"description": "Notepad++-Plugin for manipulate CADdy-formated coordinate- and measure-textfiles",
+			"author": "Mario Rosenbohm",
+			"homepage": "https://github.com/MarioRosi/CADdyTools"
 		},
 		{
 			"folder-name": "CodeAlignmentNpp",
@@ -126,12 +146,12 @@
 		{
 			"folder-name": "Comment Wrap",
 			"display-name": "Comment Wrap",
-			"version": "1.0.0.2",
-			"id": "9a637ab6ba6304e2376de5345489421667a150feb04a12bb0da59b5e109f911d",
-			"repository": "https://bitbucket.org/Kered13/notepad-comment-wrap/downloads/Comment_Wrap_x64_v1.0.0.2.zip",
+			"version": "1.0.0.3",
+			"id": "c5fa8745755c2648a1e521dc9184791f9560d172d4c33dd1b04573b9900c58ee",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Comment%20Wrap%20x64%20v1.0.0.3.zip",
 			"description": "Wraps comments as you type. Supports C-style, Python-style, and Lua-style comments.",
 			"author": "Derek Brown",
-			"homepage": "https://bitbucket.org/Kered13/notepad-comment-wrap"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "ComparePlugin",
@@ -616,9 +636,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.4",
-			"id": "51548732e429c8ae2a815da8e95139f29eee18e6b50c2bca179aec4ad7c88c95",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.4/NppFTP-x64.zip",
+			"version": "0.29.5",
+			"id": "d8357bd2c4f9be83ba27aa08eacc784c5b09a4f012a218f36de12be8a8da3c17",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.5/NppFTP-x64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -758,10 +778,10 @@
 			"display-name": "Python Indent",
 			"version": "1.0.0.2",
 			"id": "e2b4c35f137f949f4278f2f1d2a0a666815a3441ccf102bde2adc829c44c7b20",
-			"repository": "https://bitbucket.org/Kered13/python-indent-for-notepad/downloads/Python_Indent_x64_v1.0.0.2.zip",
+			"repository": "https://sourceforge.net/projects/kered13-notepad-plugins/files/Python%20Indent%20x64%20v1.0.0.2.zip",
 			"description": "Python auto-indent plugin.",
 			"author": "Derek Brown",
-			"homepage": "https://bitbucket.org/Kered13/python-indent-for-notepad"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "PythonScript",
@@ -806,9 +826,9 @@
 		{
 			"folder-name": "Remove Duplicate Lines",
 			"display-name": "Remove Duplicate Lines",
-			"version": "1.2.0.0",
-			"id": "499a1ac2c6052c74c2d2e7bd886ff4586239d2ccbd7297721f478668e9693bf8",
-			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.2.0.0/Remove_dup_lines_x64.zip",
+			"version": "1.3.0.0",
+			"id": "f90bf1803e703c0a10cfa9fb022e914628e2abd4c23e666e6b9a4e11bcf0464f",
+			"repository": "https://github.com/gurikbal/Remove_dup_lines/releases/download/1.3.0.2/Remove_dup_lines_x64.zip",
 			"description": "Remove duplicate lines without removing empty lines.",
 			"author": "G. Singh",
 			"homepage": "https://github.com/gurikbal/Remove_dup_lines"
@@ -978,10 +998,10 @@
 			"display-name": "Visual Studio Line Copy",
 			"version": "1.0.0.1",
 			"id": "215b517858412b642c28686673c5ddc71a7a3a78bfa1669482992ed761b667aa",
-			"repository": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy/downloads/VisualStudioLineCopy%20x64.zip",
-			"description": "Adds two commands: CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting.",
+			"repository": "https://sourceforge.net/projects/notepad-visualstudiolinecopy/files/VisualStudioLineCopy%20x64%20v1.0.0.1.zip",
+			"description": "Adds two commands to Notepad++ CopyAllowLine and CutAllowLine, which adds Visual Studio style copy/cutting to Notepad++.",
 			"author": "Mackenzie Zastrow (forked by Derek Brown)",
-			"homepage": "https://bitbucket.org/Kered13/notepad-visualstudiolinecopy"
+			"homepage": "https://sourceforge.net/projects/kered13-notepad-plugins/"
 		},
 		{
 			"folder-name": "WakaTime",
@@ -1006,9 +1026,9 @@
 		{
 			"folder-name": "XMLTools",
 			"display-name": "XML Tools",
-			"version": "3.0.1.0",
-			"id": "bf86748a6a34c6138a4342b2d2beccc8c0462a182d8072c2e18f4eab5cb3d53a",
-			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.1.0/XMLTools-3.0.1.0-x64.zip",
+			"version": "3.0.4.2",
+			"id": "3f8a1882aaf416d8b7a655379dad714b06ba1e3ce67048040c2861010952b171",
+			"repository": "https://github.com/morbac/xmltools/releases/download/3.0.4.2/XMLTools-3.0.4.2-x64.zip",
 			"description": "Small set of useful tools for editing XML. Plugin is MSXML-based. The features are:\r\n- XML syntax Check\r\n- XML Schema (XSD) + DTD Validation\r\n- XML tag autoclose\r\n- Pretty print\n- Linarize XML\r\n- Current XML Path\r\n- Conversion XML &amp;lt;-&amp;gt; Text\n- Comment / Uncomment\r\n- XPath expression evaluation",
 			"author": "Nicolas Crittin",
 			"homepage": "https://github.com/morbac/xmltools"
